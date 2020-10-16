@@ -1,0 +1,89 @@
+
+/* Reset Rules */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Utility Classes */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.icona_logo {
+    font-size: 40px;
+    color: #fe785a;
+}
+
+.contact_icon{
+    font-size: 25px;
+}
+
+.h_80{
+    height: 80px;
+}
+
+/* Utility Classes */
+
+#header_home {
+    width: 100%;
+    height: calc( 695px + 80px + 80px );
+    background-color: rgb(255, 244, 239);
+    border: 1px solid black;
+    position: relative;
+}
+
+
+nav{
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.header_row{
+    width: 100%;
+    background-color: #AFEBE4;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+main{
+    width: 100%;
+    background-color: #f4f9fd;
+}
+
+.main_services {
+    height: 1529px;
+}
+
+.main_comunity {
+    height: calc(560px + 50px + 50px);
+    background-image: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
+}
+
+.main_customers {
+    height: calc(169px + 50px + 50px);
+    background-color: aquamarine;
+}
+
+.main_growing {
+    height: 480px;
+    background-color: aquamarine;
+}
+
+footer{
+    width: 100%;
+    height: 618px;
+    color: #ffffff;
+    background-color: #32495b;
+}
