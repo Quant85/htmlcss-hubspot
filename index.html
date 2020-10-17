@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        
+                
         <!-- googlefont -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,400,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
 
         <!-- fontawesome icon -->
         <script type="text/javascript" src="assets/fontawesome/font.js"></script>
@@ -17,25 +17,109 @@
 
         <!-- HEADER -->
         <header id="header_home">
-            <nav class="nav_top h_80">
+
+            <!-- nav_top fixed -->
+            <nav class="nav_top fixed h_80">
+
+                <!-- nav_top .container_80 clearfix-->
+                <div class="container_80 clearfix">
+
+                    <!-- nav_top_left .col_4 -->
+                    <div class="nav_top_l flt_l col_4">
+
+                        <!-- .nav_link language -->
+                        <a href="#" class="nav_link language">
+                            <i class="fas fa-globe-europe"></i> English <i class="fas fa-chevron-down"></i>
+                        </a> 
+                        <!-- /.nav_link language -->
+
+                        <!-- .nav_link contacnt -->
+                        <a href="" class="nav_link contacnt">Contact Us</a>
+                        <!-- /.nav_link contacnt -->
+                    </div>
+                    <!-- /nav_top_left .col_4 -->
+
+                    <!-- nav_top_right .col_8 -->
+                    <div class="nav_top_r flt_l col_8">
+
+                        <!-- .nav_link ico_search -->
+                        <a href="#" class="nav_link ico_search">
+                            <i class="fas fa-search fa-sm"></i>
+                        </a>                           
+                        <!-- /.nav_link ico_search -->
+    
+                        <!-- .nav_link bt_login -->
+                        <a href="" class="nav_link bt_login  pd_10 br_5">Log in</a>
+                        <!-- /.nav_link bt_login -->
+
+                        <!-- .nav_link bt_download -->
+                        <a href="" class="nav_link bt_download pd_10 br_5">GetHubspotFree</a>
+                        <!-- /.nav_link bt_download -->
+                    </div>                                                
+                    <!-- / nav_top right .col_8 -->
+
+                </div>
+                <!-- / nav_top  .container_80 clearfix -->
+
+            </nav>
+
+            <nav class="nav_down h_80 mt_80">
 
                 <!-- .containe -->
-                <div class="container">
-                    <i class="icona_logo fab fa-hubspot"></i>
+                <div class="nav_wrap container_80 h_80">
+
+                    <!-- logo left -->
+                    <div class="logo col_4">
+                        <img src="assets/img/header/logo.svg" alt="logo hubspot con scritta blu scura con carattere o stilizzato mediante icona in arancione, rappresentante il sistemhub, cerchio centrali con raggi che si diramano e collegano a point limitrofi">
+                    </div>
+                    <!-- /.logo left -->
+
+                    <!-- /.nav_list flt_r pd_10 -->
+                    <ul class="nav_line col_8">
+                        <li>
+                            <a href="#" class="nav_link pd_10">
+                                <span class="pd_r10">Software</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="nav_link pd_10">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav_link pd_10">
+                                <span class="pd_r10">Resources</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="nav_link pd_10">
+                                <span class="pd_r10">Partners</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="nav_link pd_10">
+                                <span class="pd_r10">About</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <!-- /.nav_line flt_r pd_10 -->
 
                 </div>
                 <!-- /.containe -->
 
             </nav>
 
-            <nav class="nav_down h_80">
-
-            </nav>
-
-            <!-- .header_row -->
-            <div class="header_row h_80">
+            <div class="col_8 flt_l">
 
             </div>
+            <!-- /.col_8 flt_l -->
+
+            <!-- .header_row -->
+            <hr class="hr_row h_80">
             <!-- /.header_row -->
 
         </header>
