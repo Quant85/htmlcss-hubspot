@@ -44,7 +44,7 @@ body{
     width: calc((100% / 12) * 4);
 }
 
-.col_8{
+.col_6{
     width: calc((100% / 12) * 6);
 }
 
@@ -85,7 +85,6 @@ body{
 
 #header_home {
     width: 100%;
-    height: calc( 695px + 80px + 80px );
     background-color: rgb(255, 244, 239);
     border: 1px solid black;
     position: relative;
@@ -191,15 +190,14 @@ body{
     color: #32495b;
     font-weight: 400;
 }
-
 /* nav_down */
 
 
 .hr_row{
     width: 100%;
     background-color: #AFEBE4;
-    border-top: 3px solid #33475B;
-    border-bottom: 3px solid #33475B;
+    border-top: 2px solid #33475B;
+    border-bottom: 2px solid #33475B;
     position: absolute;
     bottom: 0px;
     left: 0;
