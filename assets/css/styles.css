@@ -117,6 +117,14 @@ mr_10{
     margin-bottom: 30px;
 }
 
+.mb_40{
+    margin-bottom: 40px;
+}
+
+.mb_50{
+    margin-bottom: 50px;
+}
+
 /* -----Utility Classes----- */
 
 /* ------type tool------- */
@@ -304,7 +312,6 @@ main{
 
 /* ------main_service------ */
 .main_services {
-    height: 1529px;
     margin: auto;
 }
 
@@ -329,6 +336,7 @@ main{
 /* ---.header_service--- */
 .header_service{
     padding: 80px;
+    margin-bottom: 50px;
 }
 /*  -- .box_l --*/
 .box_l{
@@ -351,7 +359,7 @@ main{
     line-height: 20px;
     text-transform: uppercase;
 }
-.list>li{
+.list_a>li{
     text-transform: capitalize;
     display: inline-block;
 }
@@ -362,6 +370,40 @@ main{
 }
 /*  -- .box_r --*/
 /* ---/.header_service--- */
+
+/* -- .body_service -- */
+.body_service>.card_w {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.body_service>.card_w:nth-child(2) {
+    margin: 0 5%;
+}
+
+.text_card>h3{
+    text-transform: capitalize;
+}
+
+.text_card>p{
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+
+.text_card>h4{
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.list_b{
+    text-align: left;
+    text-transform: capitalize;
+    list-style: none;
+    margin-bottom: 50px;
+}
+/* -- /.body_service -- */
 
 /* ------main_service------ */
 .main_comunity {
