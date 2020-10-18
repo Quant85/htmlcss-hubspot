@@ -10,6 +10,11 @@
 
 
 /* -----Utility Classes----- */
+.container_50 {
+    width: 50%;
+    margin: auto;
+}
+
 .container_70 {
     width: 70%;
     margin: auto;
@@ -113,6 +118,10 @@ ml_10{
 }
 .b_orange:hover{
     background-color: rgba(254, 120, 90, .8);
+}
+
+p{
+    line-height: 1.8em;
 }
 
 /* ------/type tool------ */
@@ -238,13 +247,7 @@ body {
 .hero_text h1 {
     color: #33475B;
     font-weight: 700;
-    font-size: 2.8em;
-}
-
-.hero_text p {
-    letter-spacing: -1px;
-    line-height: 1.8em;
-    margin-bottom: 30px;
+    font-size: 3.2em;
 }
 
 .hero_text>p:nth-child(4){
@@ -270,10 +273,33 @@ main{
     background-color: #f4f9fd;
 }
 
+/* ------main_service------ */
 .main_services {
     height: 1529px;
+    margin: auto;
 }
 
+/*  -- .info --*/
+.info {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.info_img{
+    width: 250px;
+}
+
+.info_title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 2em;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+/*  -- .info --*/
+
+/* ------main_service------ */
 .main_comunity {
     height: calc(560px + 50px + 50px);
     background-image: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
