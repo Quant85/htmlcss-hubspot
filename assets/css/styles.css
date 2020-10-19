@@ -55,6 +55,9 @@
 .col_6{
     width: calc((100% / 12) * 6);
 }
+.col_7 {
+    width: calc((100% / 12) * 7);
+}
 .col_8 {
     width: calc((100% / 12) * 8)
 }
@@ -161,6 +164,10 @@
 
 p{
     line-height: 1.8em;
+}
+
+.sm{
+    font-size: 0.83em;
 }
 
 .card_w{
@@ -300,10 +307,6 @@ body {
     font-weight: 700;
     font-size: 3.2em;
 }
-
-.hero_text>p:nth-child(4){
-    font-size: 0.8em;
-}
 /* ------/.hero------ */
 
 .hr_row{
@@ -321,7 +324,6 @@ body {
 /* ------MAIN------ */
 main{
     width: 100%;
-    background-color: #f4f9fd;
 }
 
 /* ------main_service------ */
@@ -445,9 +447,7 @@ main{
 }
 /* ------/.header_comunity------ */
 
-
-
-/* ------/main_comunity------ */
+/* ------.banner_box------ */
 .banner_row {
     width: 100%;
     text-align: center;
@@ -477,19 +477,51 @@ main{
 .banner_card h5 {
     font-weight: 500;
 }
-
+/* ------/.banner_box------ */
+/* ------/main_comunity------ */
 
 /* ------main_customers------ */
 .main_customers {
-    height: calc(169px + 50px + 50px);
-    background-color: aquamarine;
+    margin: 50px 7%;
+}
+
+.text_customers>h2{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.logobox_customer {
+    text-align: center;
+    list-style: none;
+}
+.logobox_customer>li{
+    width: 20%;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.logo_customers{
+    max-width: 100%;
+    max-height: 40px;
+    margin-bottom: 30px;
+    vertical-align: middle;
 }
 /* ------/main_customers------ */
 
 /* ------.main_growing------ */
 .main_growing {
-    height: 480px;
-    background-color: aquamarine;
+    margin: 0 auto 50px auto;
+}
+
+.text_growing>h2{
+    font-weight: 700;
+    font-size: 2em;
+    margin: 40px 0;
+}
+.boximg_growing{
+    text-align: right;
+}
+.img_growing {
+    max-height: 420px;
 }
 /* ------/.main_growing------ */
 /* ------/MAIN------ */
