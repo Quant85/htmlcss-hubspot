@@ -79,18 +79,22 @@
 .tx_al_r{
     text-align: right;
 }
-
-.h_80{
-    height: 80px;
+.tx_al_c,
+.info,
+.box_l,
+.body_service>.card_w,
+.main_comunity,
+.banner_row,
+.logobox_customer,
+.footer_center {
+    text-align: center;
 }
+
 .pd_10{
     padding: 10px;
 }
 .pd_20 {
     padding: 20px;
-}
-.pd_20_40{
-    padding: 20px 40px !important;
 }
 
 .pd_l10{
@@ -138,7 +142,16 @@
     margin-bottom: 10px;
 }
 
-.mb_30{
+.mb_20,
+.icon_main,
+.text_card>p,
+.footer_top li {
+    margin-bottom: 20px;
+}
+
+.mb_30,
+h3,
+.logo_customers {
     margin-bottom: 30px;
 }
 
@@ -153,19 +166,20 @@
 /* -----/Utility Classes----- */
 
 /* ------type tool------- */
-.bt{
-    display: inline-block;
+
+.bt,
+.b_orange,
+.b_orange_sm {
     font-size: 14px;
     line-height: 16px;
-    padding: 10px;
-    border: 1px solid #fe785a;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
+    border: 1px solid #fe785a;
+    background-color: #fe785a;
 }
 .b_orange{
-    color:white;
-    text-decoration: none;
-    text-transform: capitalize;   
-    background-color: #fe785a;
+    padding: 20px 40px !important;
 }
 .b_orange:hover{
     background-color: rgba(254, 120, 90, .8);
@@ -176,18 +190,13 @@
     font-weight: 400;
     color: #32495b;
     text-decoration: none;
-    text-transform: capitalize;
     background-color: rgba(255,255,255,0.8);
-    display: inline-block;
     padding: 10px;
     border-radius: 5px;
 }
 .bt_grey:hover{
     color: #33475B;
     background-color: rgba(255, 255, 255, 0.7);
-}
-p{
-    line-height: 1.8em;
 }
 
 .card_w{
@@ -200,10 +209,46 @@ p{
     font-size: 20px;
 }
 
-h3{
+.jumbotron_text h1,
+.info_title,
+.text_line,
+.banner_card span,
+h2,
+h3 {
     font-weight: 700;
+}
+
+h3{
     font-size: 1.5em;
-    margin-bottom: 30px;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+.b_orange,
+.bt_grey,
+.info_title,
+.list_a>li,
+.text_card>h3,
+.list_b {
+    text-transform: capitalize;
+}
+
+.nav_line,
+.list_b,
+.logobox_customer,
+.footer_top ul {
+    list-style: none;
+}
+
+.bt,
+.b_orange,
+.nav_line>li,
+.list_a>li,
+.logobox_customer>li,
+.icon_list>li {
+    display: inline-block;
 }
 /* ------/type tool------ */
 
@@ -218,7 +263,6 @@ body {
 #header_home {
     width: 100%;
     background-color: rgb(255, 244, 239);
-    border: 1px solid black;
     position: relative;
 }
 /* ------nav_top fixed------ */
@@ -226,7 +270,6 @@ body {
     width: 100%;
     min-width: 1500px;
     background-color: #F4F9FD;
-    border: 1px solid black;
 }
 
 .nav_top_l, .nav_top_r{
@@ -275,6 +318,7 @@ body {
     position: relative;
 }
 .nav_wrap {
+    height: 80px;
     position: relative;
 }
 
@@ -288,15 +332,10 @@ body {
 
 /* nav_down right */
 .nav_line{
-    list-style: none;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-}
-
-.nav_line>li{
-    display: inline-block;
 }
 
 .nav_line > li >a{
@@ -336,7 +375,6 @@ body {
 
 .jumbotron_text h1 {
     color: #33475B;
-    font-weight: 700;
     font-size: 3.2em;
 }
 /* ------/.jumbotron------ */
@@ -354,7 +392,6 @@ main{
 
 /*  -- .info --*/
 .info {
-    text-align: center;
     padding: 50px 0;
 }
 
@@ -364,25 +401,17 @@ main{
 
 .info_title{
     font-size: 32px;
-    font-weight: 700;
     line-height: 2em;
-    text-transform: capitalize;
-    margin-bottom: 30px;
 }
 /*  -- /.info --*/
 
 /* ---.header_service--- */
 .header_service{
     padding: 80px;
-    margin-bottom: 50px;
 }
 /*  -- .box_l --*/
-.box_l{
-    text-align: center;
-}
 .icon_main{
     max-height: 100px;
-    margin-bottom: 20px;
 }
 /*  -- /.box_l --*/
 
@@ -393,13 +422,8 @@ main{
 
 .text_line{
     width: 100%;
-    font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
-}
-.list_a>li{
-    text-transform: capitalize;
-    display: inline-block;
 }
 
 .orange_check{
@@ -412,7 +436,6 @@ main{
 /* -- .body_service -- */
 .body_service>.card_w {
     width: 30%;
-    text-align: center;
     padding: 20px;
 }
 
@@ -424,13 +447,8 @@ main{
     padding: 0 5%;
 }
 
-.text_card>h3{
-    text-transform: capitalize;
-}
-
 .text_card>p{
     min-height: 175px;
-    margin-bottom: 20px;
 }
 
 .text_card>h4{
@@ -441,9 +459,6 @@ main{
 
 .list_b{
     text-align: left;
-    text-transform: capitalize;
-    list-style: none;
-    margin-bottom: 50px;
 }
 /* -- /.body_service -- */
 /* ------/.main_service------ */
@@ -452,14 +467,12 @@ main{
 /* ------main_comunity------ */
 .main_comunity {
     color: #ffffff;
-    text-align: center;
     background-image: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
     padding: 50px 0;
 }
 
 /* ------.header_comunity------ */
 .header_comunity>h2{
-    font-weight: 700;
     font-size: 2.1em;
 }
 .header_comunity>p{
@@ -471,7 +484,6 @@ main{
 /* ------.banner_box------ */
 .banner_row {
     width: 100%;
-    text-align: center;
 }
 
 .banner_card {
@@ -483,7 +495,6 @@ main{
 }
 
 .banner_card span {
-    font-weight: 700;
     font-size: 2em;
     margin-right: 4px;
 }
@@ -508,22 +519,15 @@ main{
 
 .text_customers>h2{
     font-size: 2.8em;
-    font-weight: 700;
 }
 
-.logobox_customer {
-    text-align: center;
-    list-style: none;
-}
 .logobox_customer>li{
     width: 20%;
-    display: inline-block;
     margin: 0px 10px;
 }
 .logo_customers{
     max-width: 100%;
     max-height: 40px;
-    margin-bottom: 30px;
     vertical-align: middle;
 }
 /* ------/main_customers------ */
@@ -534,7 +538,6 @@ main{
 }
 
 .text_growing>h2{
-    font-weight: 700;
     font-size: 2em;
     margin: 40px 0;
 }
@@ -552,7 +555,6 @@ footer{
     background-color: #32495b;
 }
 
-
 footer a{
     color: #cbd6e2;
 }
@@ -567,26 +569,12 @@ footer a:hover {
 }
 .footer_top h3{
     font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-.footer_top ul{
-    list-style: none;
-}
-.footer_top li{
-    margin-bottom: 20px;
-}
-
-.icon_list>li {
-    display: inline-block;
 }
 /* /.footer_top */
 
 /* .footer_center */
 .footer_center{
-    text-align: center;
     border-bottom: 1px solid #cbd6e2;
 }
 /* /.footer_center */
-
 /* ------/FOOTER------ */
