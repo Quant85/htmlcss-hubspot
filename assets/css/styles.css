@@ -208,7 +208,7 @@ h3{
 /* ------/type tool------ */
 
 body {
-    min-width: 1400px;
+    min-width: 1500px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #33475B;
@@ -224,7 +224,7 @@ body {
 /* ------nav_top fixed------ */
 .nav_top{
     width: 100%;
-    min-width: 1400px;
+    min-width: 1500px;
     background-color: #F4F9FD;
     border: 1px solid black;
 }
@@ -306,8 +306,8 @@ body {
 /* ------/nav_down right------ */
 /* ------/nav_down------ */
 
-/* ------hero------ */
-#hero{
+/* ------jumbotron------ */
+#jumbotron{
     width: 100%;
     height: 695px;
     background-color: #FFF4EF;
@@ -316,29 +316,30 @@ body {
     background-position: right;
     position: relative;
 }
-
-.hero_text {
-    width: 50%;
-    margin-top: 60px;
-}
-
-.hero_text h1 {
-    color: #33475B;
-    font-weight: 700;
-    font-size: 3.2em;
-}
-/* ------/.hero------ */
-
-.hr_row{
+#jumbotron::before {
     width: 100%;
-    height: 86px;
+    height: 80px;
+    content: '';
+    display: block;
     background-color: #AFEBE4;
     border-top: 3px solid #33475B;
     border-bottom: 3px solid #33475B;
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
 }
+
+.jumbotron_text {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.jumbotron_text h1 {
+    color: #33475B;
+    font-weight: 700;
+    font-size: 3.2em;
+}
+/* ------/.jumbotron------ */
 /* ------/HEADER------ */
 
 /* ------MAIN------ */
