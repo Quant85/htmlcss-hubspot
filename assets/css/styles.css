@@ -11,7 +11,6 @@
 
 /* -----Utility Classes----- */
 .container_50 {
-    width: 50%;
     margin: auto;
 }
 
@@ -67,6 +66,9 @@
 .col_10 {
     width: calc((100% / 12) * 10)
 }
+.col_12 {
+    width: calc((100% / 12) * 12)
+}
 
 .link_n{
     text-decoration: none;
@@ -93,9 +95,6 @@
 .pd_10{
     padding: 10px;
 }
-.pd_20 {
-    padding: 20px;
-}
 
 .pd_l10{
     padding-left: 10px;
@@ -104,28 +103,12 @@
     padding-right: 10px;
 }
 
-.pd_l30{
-    padding-left: 30px;
-}
-
-.pd_b20{
-    padding-bottom: 20px;
-}
-
 .b_bw{
     border-bottom: 1px solid white
 }
 
-.br_5{
-    border-radius: 5px;
-}
-
 .m_10{
     margin: 10px;
-}
-
-.mt_80 {
-    margin-top: 80px;
 }
 
 .mt_10{
@@ -261,13 +244,11 @@ body {
 
 /* ------HEADER------ */
 #header_home {
-    width: 100%;
     background-color: rgb(255, 244, 239);
     position: relative;
 }
 /* ------nav_top fixed------ */
 .nav_top{
-    width: 100%;
     min-width: 1500px;
     background-color: #F4F9FD;
 }
@@ -313,8 +294,8 @@ body {
 
 /* ------nav_down------ */
 .nav_down {
-    width: 100%;
     background-color: #ffffff;
+    margin-top: 80px;
     position: relative;
 }
 .nav_wrap {
@@ -347,7 +328,6 @@ body {
 
 /* ------jumbotron------ */
 #jumbotron{
-    width: 100%;
     height: 695px;
     background-color: #FFF4EF;
     background-image: url("../img/header/jumbotron.png");
@@ -369,7 +349,6 @@ body {
 }
 
 .jumbotron_text {
-    width: 50%;
     margin-top: 60px;
 }
 
@@ -381,9 +360,6 @@ body {
 /* ------/HEADER------ */
 
 /* ------MAIN------ */
-main{
-    width: 100%;
-}
 
 /* ------main_service------ */
 .main_services {
@@ -421,7 +397,6 @@ main{
 }
 
 .text_line{
-    width: 100%;
     line-height: 20px;
     text-transform: uppercase;
 }
@@ -482,12 +457,9 @@ main{
 /* ------/.header_comunity------ */
 
 /* ------.banner_box------ */
-.banner_row {
-    width: 100%;
-}
-
 .banner_card {
     border-right: 1px solid white;
+    padding: 20px;
 }
 
 .banner_card:not(:last-child) {
@@ -550,7 +522,6 @@ main{
 
 /* ------FOOTER------ */
 footer{
-    width: 100%;
     color: #ffffff;
     background-color: #32495b;
 }
@@ -564,7 +535,6 @@ footer a:hover {
 
 /* .footer_top */
 .footer_top, .footer_bottom{
-    width: 100%;
     padding: 40px 0;
 }
 .footer_top h3{
@@ -575,6 +545,7 @@ footer a:hover {
 /* .footer_center */
 .footer_center{
     border-bottom: 1px solid #cbd6e2;
+    padding-bottom: 20px;
 }
 /* /.footer_center */
 /* ------/FOOTER------ */
